@@ -1,0 +1,172 @@
+body{
+    background-image: url("images/bcg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width:1500px ;
+    overflow: auto;
+}
+
+.sidePanel {
+    min-width: 300px;
+    height: 1200px;
+    margin: 35px;
+    padding: 10px;
+    float: right;
+    border: 2px;
+    border-color: purple;
+    border-style: solid;
+    color: black;
+    box-shadow: 5px 5px 5px purple;
+}
+
+.mainPanel {
+    min-width: 800px;
+    width: 70%;
+    max-height: 1175px;
+    padding-left: 10px;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+.contactInfo {
+    padding-top: 15px;
+    text-align: center;
+    background-color: white;
+    font-size: larger;
+    color: aqua;
+    height: 40px;
+    width: 100%;
+}
+
+footer {
+    padding-bottom: 10px;
+}
+
+a {
+    margin: 25px;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:active {
+    color: gray;
+}
+
+a:hover {
+    color: grey;
+}
+
+.navbar {
+    text-align: center;
+    background-color: white;
+    font-size: large;
+    color: darkgreen;
+    height: 45px;
+    min-width: 1500px;
+}
+
+.greenBand {
+    color: darkgreen;
+}
+
+.pinkBand {
+    color: purple;
+    margin-left: 250px;
+    margin-right: 250px;
+    box-shadow: 5px 5px 5px purple;
+}
+
+.logoText {
+    min-width: 500px;
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    opacity: 70%;
+    font-size: 50px;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logoArea {
+    
+    padding-top: 75px;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    height: 250px;
+}
+
+.contentPane {
+    overflow: auto;
+    color: black;
+    padding-top: 20px;
+    background-color: rgb(161, 133, 187);
+    min-height: 1225px;
+    max-height: 1250px;
+    
+}
+
+.welcome {
+    line-height: 2;
+    margin-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;   
+}
+
+.call {
+    line-height: 2;
+    color: black;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    margin-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.couple {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    color: black;
+}
+
+.family {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    color: black;
+}
+
+.individual {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    color: black;
+    
+}
+
+.special {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    color: black;
+}
